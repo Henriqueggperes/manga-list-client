@@ -1,0 +1,95 @@
+#divContainerLogin {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.returnHome{
+    height: 10%;
+    width: 100%;
+}
+
+#homeButton{
+    height: 60%;
+    width: 2.5rem;
+}
+
+#divLogo {
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+    
+}
+
+#formUserData {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+}
+
+#divButtonLogin {
+    padding-top: 1.5rem;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonLogin {
+    height: 120%;
+    width: 70%;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+#divRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+}
+
+#spanRegister{
+    font-size: 1.2rem;
+}
+
+#registerButton{
+   background: none;
+   border-radius: .2rem;
+   border: 1px solid white;
+   height: 25%;
+   width: 10rem;
+   font-weight: bold;
+   outline-style: none;
+   font-size: 1.2rem;
+}
+
+.loginFormInput {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    outline-style: none;
+    border: 1px solid white;
+    width: auto;
+    border-radius: .2rem;
+    width: 15rem;
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    color: white;
+}
