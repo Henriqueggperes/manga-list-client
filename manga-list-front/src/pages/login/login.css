@@ -1,95 +1,78 @@
 #divContainerLogin {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.returnHome{
-    height: 10%;
-    width: 100%;
-}
-
-#homeButton{
-    height: 60%;
-    width: 2.5rem;
-}
-
-#divLogo {
-    height: 20rem;
-    width: 20rem;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
-
-.logo {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   height: 100%;
   width: 100%;
-    
+  margin: 0;
+  padding: 0;
 }
 
-#formUserData {
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px; 
-    align-items: center;
+.returnHome {
+  box-sizing: border-box;
+  height: 10%;
+  width: 100%;
+  padding: 1rem 0 0 1rem;
 }
 
-#divButtonLogin {
-    padding-top: 1.5rem;
-    display: flex;
-    height: 10%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+#homeButton {
+  height: 60%;
+  width: 2.5rem;
 }
 
-#buttonLogin {
-    height: 120%;
-    width: 70%;
-    border-radius: .5rem;
-    font-size: 1.2rem;
+.loginLogoContainer {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
+}
+.loginLogoContainer > img {
+  height: 100%;
 }
 
-#divRegister{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 25%;
-    width: 100%;
+.loginFormContainer {
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  width: 100%;
 }
 
-#spanRegister{
-    font-size: 1.2rem;
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 20rem;
 }
 
-#registerButton{
-   background: none;
-   border-radius: .2rem;
-   border: 1px solid white;
-   height: 25%;
-   width: 10rem;
-   font-weight: bold;
-   outline-style: none;
-   font-size: 1.2rem;
+.loginFormInputsContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 30%;
+  width: 100%;
 }
 
-.loginFormInput {
-    display: flex;
-    flex-direction: row;
-    background: none;
-    outline-style: none;
-    border: 1px solid white;
-    width: auto;
-    border-radius: .2rem;
-    width: 15rem;
-    height: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    margin-top: .5rem;
-    color: white;
+.loginFormInputsContainer > input {
+  height: 35%;
+  width: 100%;
+  background: none;
+  outline-style: none;
+  border: 1px solid #fff;
+  border-radius: 0.2rem;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+label{
+    font-size: .9rem;
+    transition: all 0.4s;
+}
+
+.loginFormInputsContainer > input:focus,
+input:valid {
+  border-color: #eb5e28;
+}
+.loginFormInputsContainer > input:focus + label,
+input:valid + label {
+  color: #eb5e28;
+  font-size: 1rem;
 }
