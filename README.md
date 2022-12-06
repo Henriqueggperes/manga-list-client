@@ -1,1 +1,3 @@
-# manga-list-client
+#WORK IN PROGRESS
+
+## manga-list-client 
