@@ -24,10 +24,17 @@ const Login = () => {
             <label htmlFor="password">Password</label>
           </div>
           <div id="loginFormSendButtonContainer">
-             <button>ENVIAR</button>
+             <button>ENTRAR</button>
           </div>
         </form>
       </div>
+
+        <div className="registerOptionContainer">
+           <span>Não tem uma conta?</span>
+           <div className="registerLink">
+             CADASTRE-SE
+           </div>
+        </div>
     </div>
   );
 };
